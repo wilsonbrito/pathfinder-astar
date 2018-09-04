@@ -1,0 +1,34 @@
+/**
+* Mixin - Font-weight
+*/
+/**
+* Mixin - Viewport
+*/
+/**
+* Mixin - Responsive
+* @media (max-width screen-sm-min)
+* @media (max-width screen-md-min)
+* @media (max-width screen-lg-min)
+*/
+/*
+* Global
+* Elementos globais que podem ser extendidos ao longo do documento
+*/
+.container {
+  min-width: 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  width: auto;
+}
+/*
+* Base
+* Estilo base do elementos do Html
+*/
+body {
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+/*Componente titulo*/
+.categorie .title {
+  font-size: 12px;
+}

@@ -1,0 +1,53 @@
+/**
+* Mixin - Font-weight
+*/
+light = 300
+regular = 400
+medium = 500
+semibold = 600
+bold = 700
+
+/**
+* Mixin - Viewport
+*/
+viewport = 1170px
+
+/**
+* Mixin - Responsive
+* @media (max-width screen-sm-min)
+* @media (max-width screen-md-min)
+* @media (max-width screen-lg-min)
+*/
+// Smaller devices (phones, 320px and down)
+screen-xs = 320px
+// Small devices (phones, 568px and down)
+screen-xs = 568px
+// Small devices (tablets, 768px and down)
+screen-sm = 768px
+// Medium devices (desktops, 992px and down)
+screen-md = 992px
+// Medium devices (desktops, 1200px and down)
+screen-lg = 1200px
+
+/*
+* Global
+* Elementos globais que podem ser extendidos ao longo do documento
+*/
+.container
+  min-width: 0
+  max-width: viewport
+  margin 0 auto
+  width: auto
+
+/*
+* Base
+* Estilo base do elementos do Html
+*/
+body
+	background #ffffff
+	font-family 'Poppins', sans-serif
+
+/*Componente titulo*/
+.categorie
+    .title
+        font-size 12px
