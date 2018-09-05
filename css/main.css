@@ -2,6 +2,9 @@
 * Mixin - Font-weight
 */
 /**
+* Mixin - Font-weight
+*/
+/**
 * Mixin - Viewport
 */
 /**
@@ -14,7 +17,8 @@
 * Global
 * Elementos globais que podem ser extendidos ao longo do documento
 */
-.container {
+.container,
+.header {
   min-width: 0;
   max-width: 1170px;
   margin: 0 auto;
@@ -28,7 +32,68 @@ body {
   background: #fff;
   font-family: 'Poppins', sans-serif;
 }
-/*Componente titulo*/
-.categorie .title {
-  font-size: 12px;
+/*Componente Categorias*/
+.ul--0 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 auto;
 }
+.ul--0 .li--0 {
+  list-style-type: none;
+}
+.ul--0 .li--0 .a--0 {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f35047;
+}
+/*Componente Cabeçalho da loja*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+/*Componente de conteúdos*/
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 auto;
+}
+/*Componente bloco um*/
+.block__one h1 {
+  color: #b01a5a;
+  font-size: 60px;
+  margin: 0;
+  font-weight: 900;
+}
+.block__one p {
+  color: #f35047;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+}
+/*Componente bloco dois*/
+.block__two img {
+  max-width: 590px;
+}
+/*Componente botão encontrar*/
+.btn-encontrar {
+  text-decoration: none;
+  padding: 5px 44px;
+  background: #ffbf00;
+  border-radius: 8px;
+}
+.btn-encontrar span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+/*
+* State
+* Estado global do Layout
+*/

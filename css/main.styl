@@ -6,6 +6,16 @@ regular = 400
 medium = 500
 semibold = 600
 bold = 700
+black = 900
+
+
+/**
+* Mixin - Font-weight
+*/
+primaria = #F35047
+secundaria = #B01A5A
+button = #FFBF00
+branco = #ffffff
 
 /**
 * Mixin - Viewport
@@ -34,20 +44,83 @@ screen-lg = 1200px
 * Elementos globais que podem ser extendidos ao longo do documento
 */
 .container
-  min-width: 0
-  max-width: viewport
-  margin 0 auto
-  width: auto
+    min-width: 0
+    max-width: viewport
+    margin 0 auto
+    width: auto
 
 /*
 * Base
 * Estilo base do elementos do Html
 */
 body
-	background #ffffff
-	font-family 'Poppins', sans-serif
+    background branco
+    font-family 'Poppins', sans-serif
 
-/*Componente titulo*/
-.categorie
-    .title
-        font-size 12px
+/*Componente Categorias*/
+.ul--0
+    display flex
+    flex-flow row wrap
+    align-items center
+    justify-content space-between
+    flex 1 1 auto
+    .li--0
+        list-style-type none
+        .a--0
+            text-decoration none
+            font-size 22px
+            font-weight bold
+            color primaria
+
+/*Componente Cabeçalho da loja*/
+.header
+    display flex
+    align-items center
+    justify-content center
+    flex-flow row wrap
+    @extend .container
+
+/*Componente de conteúdos*/
+.content
+        display flex
+        flex-flow row wrap
+        justify-content space-between
+        align-items center
+        flex 1 1 auto
+
+/*Componente bloco um*/
+.block__one
+    h1
+        color secundaria
+        font-size 60px
+        margin 0
+        font-weight black
+    p
+        color primaria
+        font-size 22px
+        font-weight light
+        margin 0 
+ 
+/*Componente bloco dois*/
+.block__two
+    img
+        max-width 590px
+        
+/*Componente botão encontrar*/
+.btn-encontrar
+    text-decoration none
+    padding 5px 44px
+    background button
+    border-radius 8px
+    span
+        font-size 22px
+        font-weight bold
+        color branco
+
+/*
+* State
+* Estado global do Layout
+*/
+
+
+        
