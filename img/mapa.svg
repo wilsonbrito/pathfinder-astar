@@ -10,7 +10,7 @@
       }
     </style>
   </defs>
-  <g id="Group_1" data-name="mapa" transform="translate(-1609.725 -279)">
+  <g id="mapa" data-name="mapa" transform="translate(-1609.725 -279)">
     <g id="Rua_1" data-name="Rua 1" transform="translate(1703 279)">
       <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="37.33" height="49.21"/>
       <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="16.5" height="1.89" transform="translate(0 23.66)"/>

@@ -109,18 +109,28 @@ body
 /*Componente botão encontrar*/
 .btn-encontrar
     text-decoration none
-    padding 5px 44px
     background button
     border-radius 8px
+    box-shadow 0 3px 6px rgba(0, 0, 0, 0.2)
     span
         font-size 22px
         font-weight bold
         color branco
+    &:hover
+        background none
+        box-shadow  0 0 0 1px button
+        span
+            color button
 
+/*Componente  rodapé*/
 .footer
     img
         max-width 46px
         max-height 42px
+
+.svg
+    width 100vw
+    height auto
 /*
 * State
 * Estado global do Layout
@@ -128,3 +138,11 @@ body
 body
     .header
         margin-top 10px
+
+.block__one
+    .envenlopar-bnt
+        display flex
+        justify-content center
+        margin-top 20px
+    .btn-encontrar
+        padding 5px 44px
