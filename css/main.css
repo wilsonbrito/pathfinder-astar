@@ -93,7 +93,14 @@ body {
   font-weight: 700;
   color: #fff;
 }
+.footer img {
+  max-width: 46px;
+  max-height: 42px;
+}
 /*
 * State
 * Estado global do Layout
 */
+body .header {
+  margin-top: 10px;
+}
