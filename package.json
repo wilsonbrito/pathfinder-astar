@@ -1,6 +1,11 @@
 {
     "scripts": {
         "css": "stylus -w css/main.styl -o css/main.css",
-        "site": "browser-sync start --server --files 'css/*.css, *.html, src/*.html'" 
+        "site": "browser-sync start --server --files 'css/*.css, *.html, src/*.html'"
+    },
+    "dependencies": {
+        "ngraph.events": "0.0.4",
+        "ngraph.graph": "0.0.14",
+        "ngraph.path": "^1.0.2"
     }
 }

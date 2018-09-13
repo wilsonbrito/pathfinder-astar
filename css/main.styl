@@ -54,6 +54,7 @@ screen-lg = 1200px
 * Estilo base do elementos do Html
 */
 body
+    min-height 100vh
     background branco
     font-family 'Poppins', sans-serif
 
@@ -82,11 +83,12 @@ body
 
 /*Componente de conteúdos*/
 .content
-        display flex
-        flex-flow row wrap
-        justify-content space-between
-        align-items center
-        flex 1 1 auto
+    @extend .container
+    display flex
+    flex-flow row wrap
+    justify-content space-between
+    align-items center
+    flex 1 1 auto
 
 /*Componente bloco um*/
 .block__one
@@ -124,6 +126,9 @@ body
 
 /*Componente  rodapé*/
 .footer
+    @extend .container
+    display flex
+    justify-content center
     img
         max-width 46px
         max-height 42px

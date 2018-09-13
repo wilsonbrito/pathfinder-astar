@@ -18,7 +18,9 @@
 * Elementos globais que podem ser extendidos ao longo do documento
 */
 .container,
-.header {
+.header,
+.content,
+.footer {
   min-width: 0;
   max-width: 1170px;
   margin: 0 auto;
@@ -29,6 +31,7 @@
 * Estilo base do elementos do Html
 */
 body {
+  min-height: 100vh;
   background: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -101,6 +104,10 @@ body {
   color: #ffbf00;
 }
 /*Componente  rodapé*/
+.footer {
+  display: flex;
+  justify-content: center;
+}
 .footer img {
   max-width: 46px;
   max-height: 42px;
