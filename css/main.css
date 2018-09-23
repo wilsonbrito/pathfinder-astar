@@ -2,7 +2,7 @@
 * Mixin - Font-weight
 */
 /**
-* Mixin - Font-weight
+* Mixin - Cores
 */
 /**
 * Mixin - Viewport
@@ -66,8 +66,12 @@ body {
   justify-content: space-between;
   align-items: center;
   flex: 1 1 auto;
+  height: 700px;
 }
 /*Componente bloco um*/
+.block__one {
+  text-align: center;
+}
 .block__one h1 {
   color: #b01a5a;
   font-size: 60px;
@@ -90,6 +94,7 @@ body {
   background: #ffbf00;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  padding: 5px 44px;
 }
 .btn-encontrar span {
   font-size: 22px;
@@ -112,22 +117,32 @@ body {
   max-width: 46px;
   max-height: 42px;
 }
-.svg {
+/*Componente  svg*/
+.header .svg {
   width: 100vw;
   height: auto;
+}
+/*Componente  Envelopar*/
+.envenlopar-bnt {
+  display: flex;
+  justify-content: center;
+}
+/*Componente Footer*/
+.desenvolvimento .footer {
+  position: static;
 }
 /*
 * State
 * Estado global do Layout
 */
+body .footer {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+}
 body .header {
   margin-top: 10px;
 }
 .block__one .envenlopar-bnt {
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
-}
-.block__one .btn-encontrar {
-  padding: 5px 44px;
 }

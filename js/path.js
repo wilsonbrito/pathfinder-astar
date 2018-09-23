@@ -108,6 +108,48 @@ g.addNode('rua8-com-rua9-2', {
 	y: 1
 });
 
+g.addNode('rua8-com-rua9-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 2
+});
+
+g.addNode('rua8-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 4
+});
+
+g.addNode('rua8-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 6
+});
+
+g.addNode('rua8-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 8
+});
+
+g.addNode('rua8-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 10
+});
+
+g.addNode('rua8-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 12
+});
+
 /*Link das ruas*/
 g.addLink('r1-b1', 'r2-b1-01', {
 	x: 1,

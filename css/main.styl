@@ -10,7 +10,7 @@ black = 900
 
 
 /**
-* Mixin - Font-weight
+* Mixin - Cores
 */
 primaria = #F35047
 secundaria = #B01A5A
@@ -89,9 +89,11 @@ body
     justify-content space-between
     align-items center
     flex 1 1 auto
+    height 700px
 
 /*Componente bloco um*/
 .block__one
+    text-align center
     h1
         color secundaria
         font-size 60px
@@ -114,6 +116,7 @@ body
     background button
     border-radius 8px
     box-shadow 0 3px 6px rgba(0, 0, 0, 0.2)
+    padding 5px 44px
     span
         font-size 22px
         font-weight bold
@@ -133,21 +136,34 @@ body
         max-width 46px
         max-height 42px
 
-.svg
-    width 100vw
-    height auto
+/*Componente  svg*/        
+.header
+    .svg
+        width 100vw
+        height auto
+
+/*Componente  Envelopar*/
+.envenlopar-bnt
+    display flex
+    justify-content center
+
+/*Componente Footer*/
+.footer
+    .desenvolvimento &
+        position static
+        
 /*
 * State
 * Estado global do Layout
 */
 body
+    .footer
+        position absolute
+        left 50%
+        bottom 30px
     .header
         margin-top 10px
 
 .block__one
     .envenlopar-bnt
-        display flex
-        justify-content center
         margin-top 20px
-    .btn-encontrar
-        padding 5px 44px
