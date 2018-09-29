@@ -150,10 +150,352 @@ g.addNode('rua8-1', {
 	y: 12
 });
 
+g.addNode('rua1-com-rua10-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 2
+});
+
+g.addNode('rua1-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 4
+});
+
+g.addNode('rua1-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 6
+});
+
+g.addNode('rua1-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 6
+});
+
+g.addNode('rua1-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 8
+});
+
+g.addNode('rua1-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 10
+});
+
+g.addNode('rua11-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 3
+});
+
+g.addNode('rua11-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 5
+});
+
+g.addNode('rua11-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 7
+});
+
+g.addNode('rua11-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 9
+});
+
+g.addNode('rua11-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 12
+});
+
+g.addNode('conexao1216', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 14
+});
+
+g.addNode('rua16-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 3,
+	y: 14
+});
+
+g.addNode('rua16-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 5,
+	y: 14
+});
+
+g.addNode('rua16-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 7,
+	y: 14
+});
+
+g.addNode('rua16-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 9,
+	y: 14
+});
+
+g.addNode('rua16-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 13,
+	y: 14
+});
+
+g.addNode('conexao11121617', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 14
+});
+
+g.addNode('rua17-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 18,
+	y: 14
+});
+
+g.addNode('rua17-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 20,
+	y: 14
+});
+
+g.addNode('rua17-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 24,
+	y: 14
+});
+
+g.addNode('rua17-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 27,
+	y: 14
+});
+
+g.addNode('rua17-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 29,
+	y: 14
+});
+
+g.addNode('conexao78', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 14
+});
+
+g.addNode('rua2-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 16
+});
+
+g.addNode('rua2-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 16
+});
+
+g.addNode('rua2-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 18
+});
+
+g.addNode('rua2-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 20
+});
+
+g.addNode('rua2-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 22
+});
+
+g.addNode('rua2-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 24
+});
+
+g.addNode('conexao2314', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 26
+});
+
+g.addNode('rua3-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 28
+});
+
+g.addNode('rua3-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 30
+});
+
+g.addNode('rua3-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 32
+});
+
+g.addNode('rua3-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 34
+});
+
+g.addNode('rua3-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 36
+});
+
+g.addNode('rua3-com-rua4-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 38
+});
+
+g.addNode('rua3-com-rua4-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 1,
+	y: 40
+});
+
+g.addNode('rua3-com-rua4-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 3,
+	y: 40
+});
+
+g.addNode('rua4-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 6,
+	y: 40
+});
+
+g.addNode('rua4-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 9,
+	y: 40
+});
+
+g.addNode('rua4-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 11,
+	y: 40
+});
+
+g.addNode('rua4-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 13,
+	y: 40
+});
+
+g.addNode('rua4-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 15,
+	y: 40
+});
+
+g.addNode('conexao4513', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 40
+});
 /*Link das ruas*/
 g.addLink('r1-b1', 'r2-b1-01', {
 	x: 1,
 	y: 1
+});
+
+g.addNode('rua5-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 18,
+	y: 40
+});
+
+g.addNode('rua5-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 20,
+	y: 40
+});
+
+g.addNode('rua5-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 22,
+	y: 40
+});
+
+g.addNode('rua5-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 24,
+	y: 40
 });
 
 /*Distance*/
