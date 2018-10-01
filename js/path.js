@@ -675,7 +675,75 @@ g.addNode('rua15-1', {
 	y: 26
 });
 
+g.addNode('rua12-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 16
+});
 
+g.addNode('rua12-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 18
+});
+
+g.addNode('rua12-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 20
+});
+
+g.addNode('rua12-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 22
+});
+
+g.addNode('rua12-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 24
+});
+
+g.addNode('rua13-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 28
+});
+
+g.addNode('rua13-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 30
+});
+
+g.addNode('rua13-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 32
+});
+
+g.addNode('rua13-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 35
+});
+
+g.addNode('rua13-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 38
+});
 
 
 
