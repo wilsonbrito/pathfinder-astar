@@ -464,11 +464,6 @@ g.addNode('conexao4513', {
 	x: 16,
 	y: 40
 });
-/*Link das ruas*/
-g.addLink('r1-b1', 'r2-b1-01', {
-	x: 1,
-	y: 1
-});
 
 g.addNode('rua5-5', {
 	holes: 0,
@@ -496,6 +491,198 @@ g.addNode('rua5-2', {
 	semaphore: 0,
 	x: 24,
 	y: 40
+});
+
+g.addNode('rua5-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 27,
+	y: 40
+});
+
+g.addNode('rua5-com-rua6-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 29,
+	y: 40
+});
+
+g.addNode('rua5-com-rua6-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 40
+});
+
+g.addNode('rua5-com-rua6-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 38
+});
+
+g.addNode('rua6-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 36
+});
+
+g.addNode('rua6-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 34
+});
+
+g.addNode('rua6-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 32
+});
+
+g.addNode('rua6-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 30
+});
+
+g.addNode('rua6-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 28
+});
+
+g.addNode('conexao67', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 26
+});
+
+g.addNode('rua7-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 24
+});
+
+g.addNode('rua7-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 22
+});
+
+g.addNode('rua7-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 20
+});
+
+g.addNode('rua7-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 18
+});
+
+g.addNode('rua7-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 31,
+	y: 16
+});
+
+g.addNode('rua14-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 3,
+	y: 26
+});
+
+g.addNode('rua14-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 5,
+	y: 26
+});
+
+g.addNode('rua14-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 7,
+	y: 26
+});
+
+g.addNode('rua14-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 11,
+	y: 26
+});
+
+g.addNode('rua14-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 14,
+	y: 26
+});
+
+g.addNode('conexao121315', {
+	holes: 0,
+	semaphore: 0,
+	x: 16,
+	y: 26
+});
+
+g.addNode('rua15-5', {
+	holes: 0,
+	semaphore: 0,
+	x: 18,
+	y: 26
+});
+
+g.addNode('rua15-4', {
+	holes: 0,
+	semaphore: 0,
+	x: 20,
+	y: 26
+});
+
+g.addNode('rua15-3', {
+	holes: 0,
+	semaphore: 0,
+	x: 22,
+	y: 26
+});
+
+g.addNode('rua15-2', {
+	holes: 0,
+	semaphore: 0,
+	x: 26,
+	y: 26
+});
+
+g.addNode('rua15-1', {
+	holes: 0,
+	semaphore: 0,
+	x: 29,
+	y: 26
+});
+
+
+
+
+
+/*Link das ruas*/
+g.addLink('r1-b1', 'r2-b1-01', {
+	x: 1,
+	y: 1
 });
 
 /*Distance*/
