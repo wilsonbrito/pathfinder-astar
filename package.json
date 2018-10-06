@@ -1,7 +1,8 @@
 {
     "scripts": {
         "css": "stylus -w css/main.styl -o css/main.css",
-        "site": "browser-sync start --server --files 'css/*.css, *.html, src/*.html'"
+        "site": "browser-sync start --server --files 'css/*.css, *.html, src/*.html'",
+        "bundle": "browserify js/path.js -o js/bundle.js"
     },
     "dependencies": {
         "ngraph.events": "0.0.4",
