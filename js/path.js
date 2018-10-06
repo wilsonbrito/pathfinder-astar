@@ -1065,6 +1065,7 @@ function foundpath() {
 	});
 
 }
+
 document.getElementById('botao').addEventListener('click', () => {
 	foundpath();
 
