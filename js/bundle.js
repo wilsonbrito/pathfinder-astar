@@ -1059,11 +1059,10 @@ function foundpath() {
 
 	foundPath.forEach(function (node) {
 		console.log("Node" + node)
-		var nodeSelector = node.id;
-		console.log(nodeSelector)
-		console.log('.' + nodeSelector + " .cls-1");
-		//console.log("Resultado"+result);
-		document.querySelector('path#' + nodeSelector).setAttribute('fill', 'green')
+		// var nodeSelector = node.id;
+		// console.log('.' + nodeSelector + " .cls-1");
+		// //console.log("Resultado"+result);
+		// document.querySelector('path#' + nodeSelector).setAttribute('fill', 'green')
 	});
 
 }

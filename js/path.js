@@ -1059,9 +1059,9 @@ function foundpath() {
 	foundPath.forEach(function (node) {
 		console.log("Node" + node)
 		var nodeSelector = node.id;
-		console.log('.' + nodeSelector + " .cls-1");
+		console.log('rec#' + nodeSelector);
 		//console.log("Resultado"+result);
-		document.querySelector('path#' + nodeSelector).setAttribute('fill', 'green')
+		document.querySelector('rec#' + nodeSelector).setAttribute('fill', 'green')
 	});
 
 }
