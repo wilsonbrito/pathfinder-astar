@@ -1,0 +1,309 @@
+{
+    "links": [
+        {
+            "from": "rua1-com-rua10-2",
+            "to": "rua1-com-rua10-1"
+        },
+        {
+            "from": "rua1-com-rua10-1",
+            "to": "rua1-5"
+        },
+        {
+            "from": "rua1-5",
+            "to": "rua1-4"
+        },
+        {
+            "from": "rua1-3",
+            "to": "rua1-2"
+        },
+        {
+            "from": "rua1-2",
+            "to": "rua1-1"
+        },
+        {
+            "from": "rua1-1",
+            "to": "conexao1216"
+        },
+        {
+            "from": "conexao1216",
+            "to": "rua16-1"
+        },
+        {
+            "from": "rua16-1",
+            "to": "rua16-2"
+        },
+        {
+            "from": "rua16-2",
+            "to": "rua16-3"
+        },
+        {
+            "from": "rua16-3",
+            "to": "rua16-4"
+        },
+        {
+            "from": "rua16-4",
+            "to": "rua16-5"
+        },
+        {
+            "from": "rua16-5",
+            "to": "conexao11121617"
+        },
+        {
+            "from": "conexao11121617",
+            "to": "rua17-1"
+        },
+        {
+            "from": "rua17-1",
+            "to": "rua17-2"
+        },
+        {
+            "from": "rua17-2",
+            "to": "rua17-3"
+        },
+        {
+            "from": "rua17-3",
+            "to": "rua17-4"
+        },
+        {
+            "from": "rua17-4",
+            "to": "rua17-5"
+        },
+        {
+            "from": "rua17-5",
+            "to": "conexao78"
+        },
+        {
+            "from": "conexao78",
+            "to": "rua8-1"
+        },
+        {
+            "from": "rua8-1",
+            "to": "rua8-2"
+        },
+        {
+            "from": "rua8-2",
+            "to": "rua8-3"
+        },
+        {
+            "from": "rua8-3",
+            "to": "rua8-4"
+        },
+        {
+            "from": "rua8-4",
+            "to": "rua8-5"
+        },
+        {
+            "from": "rua8-5",
+            "to": "rua8-com-rua9-3"
+        },
+        {
+            "from": "rua8-com-rua9-3",
+            "to": "rua8-com-rua9-2"
+        },
+        {
+            "from": "rua8-com-rua9-2",
+            "to": "rua8-com-rua9-1"
+        },
+        {
+            "from": "rua8-com-rua9-1",
+            "to": "rua9-5"
+        },
+        {
+            "from": "rua9-5",
+            "to": "rua9-4"
+        },
+        {
+            "from": "rua9-4",
+            "to": "rua9-3"
+        },
+        {
+            "from": "rua9-3",
+            "to": "rua9-2"
+        },
+        {
+            "from": "rua9-2",
+            "to": "rua9-1"
+        },
+        {
+            "from": "rua9-1",
+            "to": "conexao91011"
+        },
+        {
+            "from": "conexao91011",
+            "to": "rua10-1"
+        },
+        {
+            "from": "rua10-1",
+            "to": "rua10-2"
+        },
+        {
+            "from": "rua10-2",
+            "to": "rua10-3"
+        },
+        {
+            "from": "rua10-3",
+            "to": "rua10-4"
+        },
+        {
+            "from": "rua10-4",
+            "to": "rua10-5"
+        },
+        {
+            "from": "rua10-5",
+            "to": "rua1-com-rua10-3"
+        },
+        {
+            "from": "rua1-com-rua10-3",
+            "to": "rua1-com-rua10-2"
+        },
+        {
+            "from": "conexao91011",
+            "to": "rua11-5"
+        },
+        {
+            "from": "rua11-5",
+            "to": "rua11-4"
+        },
+        {
+            "from": "rua11-4",
+            "to": "rua11-3"
+        },
+        {
+            "from": "rua11-3",
+            "to": "rua11-2"
+        },
+        {
+            "from": "rua11-2",
+            "to": "rua11-1"
+        },
+    ]
+}
+g.addLink('rua11-1', 'conexao11121617');
+
+g.addLink('conexao1216', 'rua2-5');
+
+g.addLink('rua2-5', 'rua2-4');
+
+g.addLink('rua2-4', 'rua2-3');
+
+g.addLink('rua2-3', 'rua2-2');
+
+g.addLink('rua2-2', 'rua2-1');
+
+g.addLink('rua2-1', 'conexao2314');
+
+g.addLink('conexao2314', 'rua14-5');
+
+g.addLink('rua14-5', 'rua14-4');
+
+g.addLink('rua14-4', 'rua14-3');
+
+g.addLink('rua14-3', 'rua14-2');
+
+g.addLink('rua14-2', 'rua14-1');
+
+g.addLink('rua14-1', 'conexao121315');
+
+g.addLink('conexao121315', 'rua15-5');
+
+g.addLink('rua15-5', 'rua15-4');
+
+g.addLink('rua15-4', 'rua15-3');
+
+g.addLink('rua15-3', 'rua15-2');
+
+g.addLink('rua15-2', 'rua15-1');
+
+g.addLink('rua15-1', 'conexao67');
+
+g.addLink('conexao67', 'rua7-1');
+
+g.addLink('rua7-1', 'rua7-2');
+
+g.addLink('rua7-2', 'rua7-3');
+
+g.addLink('rua7-3', 'rua7-4');
+
+g.addLink('rua7-4', 'rua7-5');
+
+g.addLink('rua7-5', 'conexao78');
+
+g.addLink('conexao11121617', 'rua12-5');
+
+g.addLink('rua12-5', 'rua12-4');
+
+g.addLink('rua12-4', 'rua12-3');
+
+g.addLink('rua12-3', 'rua12-2');
+
+g.addLink('rua12-2', 'rua12-1');
+
+g.addLink('rua12-1', 'conexao121315');
+
+g.addLink('conexao2314', 'rua3-5');
+
+g.addLink('rua3-5', 'rua3-4');
+
+g.addLink('rua3-4', 'rua3-3');
+
+g.addLink('rua3-2', 'rua3-1');
+
+g.addLink('rua3-2', 'rua3-3');
+
+g.addLink('rua3-1', 'rua3-com-rua4-3');
+
+g.addLink('rua3-com-rua4-3', 'rua3-com-rua4-2');
+
+g.addLink('rua3-com-rua4-2', 'rua3-com-rua4-1');
+
+g.addLink('rua3-com-rua4-1', 'rua4-5');
+
+g.addLink('rua4-5', 'rua4-4');
+
+g.addLink('rua4-4', 'rua4-3');
+
+g.addLink('rua4-3', 'rua4-2');
+
+g.addLink('rua4-2', 'rua4-1');
+
+g.addLink('rua4-1', 'conexao4513');
+
+g.addLink('conexao4513', 'rua5-5');
+
+g.addLink('rua5-5', 'rua5-4');
+
+g.addLink('rua5-4', 'rua5-3');
+
+g.addLink('rua5-3', 'rua5-2');
+
+g.addLink('rua5-2', 'rua5-1');
+
+g.addLink('rua5-1', 'rua5-com-rua6-3');
+
+g.addLink('rua5-com-rua6-3', 'rua5-com-rua6-2');
+
+g.addLink('rua5-com-rua6-2', 'rua5-com-rua6-1');
+
+g.addLink('rua5-com-rua6-1', 'rua6-1');
+
+g.addLink('rua6-1', 'rua6-2');
+
+g.addLink('rua6-2', 'rua6-3');
+
+g.addLink('rua6-3', 'rua6-4');
+
+g.addLink('rua6-4', 'rua6-5');
+
+g.addLink('rua6-5', 'conexao67');
+
+g.addLink('conexao121315', 'rua13-5');
+
+g.addLink('rua13-5', 'rua13-4');
+
+g.addLink('rua13-4', 'rua13-3');
+
+g.addLink('rua13-3', 'rua13-2');
+
+g.addLink('rua13-2', 'rua13-1');
+
+g.addLink('rua13-1', 'conexao4513');

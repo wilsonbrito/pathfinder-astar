@@ -19,8 +19,8 @@
 */
 .container,
 .header,
-.content,
-.footer {
+body .content,
+body .footer {
   min-width: 0;
   max-width: 1170px;
   margin: 0 auto;
@@ -66,7 +66,6 @@ body {
   justify-content: space-between;
   align-items: center;
   flex: 1 1 auto;
-  height: 700px;
 }
 /*Componente bloco um*/
 .block__one {
@@ -135,6 +134,10 @@ body {
 * State
 * Estado global do Layout
 */
+/*Layout - Body*/
+body .content {
+  height: 700px;
+}
 body .footer {
   position: absolute;
   left: 50%;
@@ -143,6 +146,7 @@ body .footer {
 body .header {
   margin-top: 10px;
 }
+/*Layout - Primeiro Bloco*/
 .block__one .envenlopar-bnt {
   margin-top: 20px;
 }

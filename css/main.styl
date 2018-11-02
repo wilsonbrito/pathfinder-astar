@@ -83,13 +83,11 @@ body
 
 /*Componente de conteúdos*/
 .content
-    @extend .container
     display flex
     flex-flow row wrap
     justify-content space-between
     align-items center
     flex 1 1 auto
-    height 700px
 
 /*Componente bloco um*/
 .block__one
@@ -129,7 +127,6 @@ body
 
 /*Componente  rodapé*/
 .footer
-    @extend .container
     display flex
     justify-content center
     img
@@ -152,21 +149,24 @@ body
     .desenvolvimento &
         position static
 
-#rua10-1
-    fill red !important
-
 /*
 * State
 * Estado global do Layout
 */
+/*Layout - Body*/
 body
+    .content
+        @extend .container
+        height 700px
     .footer
+        @extend .container
         position absolute
         left 50%
         bottom 30px
     .header
         margin-top 10px
 
+/*Layout - Primeiro Bloco*/
 .block__one
     .envenlopar-bnt
         margin-top 20px

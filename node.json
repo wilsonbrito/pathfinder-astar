@@ -1,0 +1,738 @@
+{
+	"nodes": [{
+			"rua": "rua1-com-rua10-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "1"
+		},
+		{
+			"rua": "rua1-com-rua10-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "2",
+			"y": "1"
+		},
+		{
+			"rua": "rua10-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "3",
+			"y": "1"
+		},
+		{
+			"rua": "rua10-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "4",
+			"y": "1"
+		},
+		{
+			"rua": "rua10-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "5",
+			"y": "1"
+		},
+		{
+			"rua": "rua10-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "6",
+			"y": "1"
+		},
+		{
+			"rua": "rua10-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "7",
+			"y": "1"
+		},
+		{
+			"rua": "conexao91011",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "1"
+		},
+		{
+			"rua": "rua9-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "9",
+			"y": "1"
+		},
+		{
+			"rua": "rua9-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "10",
+			"y": "1"
+		},
+		{
+			"rua": "rua9-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "11",
+			"y": "1"
+		},
+		{
+			"rua": "rua9-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "12",
+			"y": "1"
+		},
+		{
+			"rua": "rua9-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "13",
+			"y": "1"
+		},
+		{
+			"rua": "rua8-com-rua9-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "14",
+			"y": "1"
+		},
+		{
+			"rua": "rua8-com-rua9-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "1"
+		},
+		{
+			"rua": "rua8-com-rua9-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "2"
+		},
+		{
+			"rua": "rua8-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "3"
+		},
+		{
+			"rua": "rua8-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "4"
+		},
+		{
+			"rua": "rua8-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "5"
+		},
+		{
+			"rua": "rua8-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "6"
+		},
+		{
+			"rua": "rua8-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "7"
+		},
+		{
+			"rua": "rua1-com-rua10-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "2"
+		},
+		{
+			"rua": "rua1-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "3"
+		},
+		{
+			"rua": "rua1-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "4"
+		},
+		{
+			"rua": "rua1-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "5"
+		},
+		{
+			"rua": "rua1-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "6"
+		},
+		{
+			"rua": "rua1-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "7"
+		},
+		{
+			"rua": "rua11-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "2"
+		},
+		{
+			"rua": "rua11-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "3"
+		},
+		{
+			"rua": "rua11-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "4"
+		},
+		{
+			"rua": "rua11-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "5"
+		},
+		{
+			"rua": "rua11-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "6"
+		},
+		{
+			"rua": "conexao1216",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "8"
+		},
+		{
+			"rua": "rua16-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "2",
+			"y": "8"
+		},
+		{
+			"rua": "rua16-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "3",
+			"y": "8"
+		},
+		{
+			"rua": "rua16-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "4",
+			"y": "8"
+		},
+		{
+			"rua": "rua16-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "5",
+			"y": "8"
+		},
+		{
+			"rua": "rua16-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "6",
+			"y": "8"
+		},
+		{
+			"rua": "conexao11121617",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "8"
+		},
+		{
+			"rua": "rua17-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "9",
+			"y": "8"
+		},
+		{
+			"rua": "rua17-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "10",
+			"y": "8"
+		},
+		{
+			"rua": "rua17-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "11",
+			"y": "8"
+		},
+		{
+			"rua": "rua17-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "12",
+			"y": "8"
+		},
+		{
+			"rua": "rua17-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "13",
+			"y": "8"
+		},
+		{
+			"rua": "conexao78",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "8"
+		},
+		{
+			"rua": "rua2-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "9"
+		},
+		{
+			"rua": "rua2-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "10"
+		},
+		{
+			"rua": "rua2-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "11"
+		},
+		{
+			"rua": "rua2-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "12"
+		},
+		{
+			"rua": "rua2-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "13"
+		},
+		{
+			"rua": "conexao2314",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "14"
+		},
+		{
+			"rua": "rua3-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "15"
+		},
+		{
+			"rua": "rua3-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "16"
+		},
+		{
+			"rua": "rua3-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "17"
+		},
+		{
+			"rua": "rua3-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "18"
+		},
+		{
+			"rua": "rua3-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "19"
+		},
+		{
+			"rua": "rua3-com-rua4-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "20"
+		},
+		{
+			"rua": "rua3-com-rua4-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "1",
+			"y": "21"
+		},
+		{
+			"rua": "rua3-com-rua4-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "2",
+			"y": "21"
+		},
+		{
+			"rua": "rua4-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "3",
+			"y": "21"
+		},
+		{
+			"rua": "rua4-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "4",
+			"y": "21"
+		},
+		{
+			"rua": "rua4-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "5",
+			"y": "21"
+		},
+		{
+			"rua": "rua4-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "6",
+			"y": "21"
+		},
+		{
+			"rua": "rua4-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "7",
+			"y": "21"
+		},
+		{
+			"rua": "conexao4513",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "9",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "10",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "11",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "12",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "13",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-com-rua6-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "14",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-com-rua6-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "21"
+		},
+		{
+			"rua": "rua5-com-rua6-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "20"
+		},
+		{
+			"rua": "rua6-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "19"
+		},
+		{
+			"rua": "rua6-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "18"
+		},
+		{
+			"rua": "rua6-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "17"
+		},
+		{
+			"rua": "rua6-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "16"
+		},
+		{
+			"rua": "rua6-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "15"
+		},
+		{
+			"rua": "conexao67",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "14"
+		},
+		{
+			"rua": "rua7-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "13"
+		},
+		{
+			"rua": "rua7-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "12"
+		},
+		{
+			"rua": "rua7-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "11"
+		},
+		{
+			"rua": "rua7-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "10"
+		},
+		{
+			"rua": "rua7-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "15",
+			"y": "9"
+		},
+		{
+			"rua": "rua14-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "2",
+			"y": "14"
+		},
+		{
+			"rua": "rua14-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "3",
+			"y": "14"
+		},
+		{
+			"rua": "rua14-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "4",
+			"y": "14"
+		},
+		{
+			"rua": "rua14-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "5",
+			"y": "14"
+		},
+		{
+			"rua": "rua14-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "6",
+			"y": "14"
+		},
+		{
+			"rua": "conexao121315",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "14"
+		},
+		{
+			"rua": "rua15-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "9",
+			"y": "14"
+		},
+		{
+			"rua": "rua15-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "10",
+			"y": "14"
+		},
+		{
+			"rua": "rua15-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "11",
+			"y": "14"
+		},
+		{
+			"rua": "rua15-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "12",
+			"y": "14"
+		},
+		{
+			"rua": "rua15-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "13",
+			"y": "14"
+		},
+		{
+			"rua": "rua12-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "9"
+		},
+		{
+			"rua": "rua12-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "10"
+		},
+		{
+			"rua": "rua12-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "11"
+		},
+		{
+			"rua": "rua12-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "12"
+		},
+		{
+			"rua": "rua12-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "13"
+		},
+		{
+			"rua": "rua13-5",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "15"
+		},
+		{
+			"rua": "rua13-4",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "13"
+		},
+		{
+			"rua": "rua13-3",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "17"
+		},
+		{
+			"rua": "rua13-2",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "18"
+		},
+		{
+			"rua": "rua13-1",
+			"holes": "0",
+			"semaphore": "0",
+			"x": "8",
+			"y": "19"
+		}
+	]
+}
