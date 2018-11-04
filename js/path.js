@@ -5,19 +5,17 @@ let path = require('ngraph.path')
 var nodes = require('./nodes.json')
 var links = require('./links.json')
 
-console.log(nodes.rua)
-
-nodes.forEach(function (nodes) {
-	g.addNode(`${nodes.rua}`, {
-		holes: `${nodes.holes}`,
-		semaphore: `${nodes.semaphore}`,
-		x: `${nodes.x}`,
-		y: `${nodes.y}`
+nodes.nodes.forEach(function (node) {
+	g.addNode(node.rua, {
+		holes: node.holes,
+		semaphore: node.semaphore,
+		x: node.x,
+		y: node.y
 	})
 })
 
-links.forEach(function (links) {
-	g.addLink(`${links.from}`, `${links.to}`)
+links.links.forEach(function (link) {
+	g.addLink(link.from, link.to)
 })
 
 /*Distance*/
@@ -47,10 +45,6 @@ let pathFinder = path.aStar(g, {
 	}
 });
 
-//Linhas abaixo estão comentadas, porém serve para rodar pelo node, caso eu queira testar sem o navegador. 
-// let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
-// console.log(foundPath);
-
 function foundpath() {
 	let from = document.getElementById('from');
 	let to = document.getElementById('to');
@@ -65,6 +59,10 @@ function foundpath() {
 	});
 
 }
+
 document.getElementById('botao').addEventListener('click', () => {
 	foundpath();
 });
+
+// let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
+// console.log(foundPath);

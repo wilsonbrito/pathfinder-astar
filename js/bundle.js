@@ -14,6 +14,10 @@ module.exports={
             "to": "rua1-4"
         },
         {
+            "from": "rua1-4",
+            "to": "rua1-3"
+        },
+        {
             "from": "rua1-3",
             "to": "rua1-2"
         },
@@ -1194,17 +1198,17 @@ let path = require('ngraph.path')
 var nodes = require('./nodes.json')
 var links = require('./links.json')
 
-nodes.forEach(function(){
-	g.addNode(`${nodes.rua}`, {
-		holes: `${nodes.holes}`,
-		semaphore: `${nodes.semaphore}`,
-		x: `${nodes.x}`,
-		y: `${nodes.y}`
+nodes.nodes.forEach(function (node) {
+	g.addNode(node.rua, {
+		holes: node.holes,
+		semaphore: node.semaphore,
+		x: node.x,
+		y: node.y
 	})
 })
 
-links.forEach(function(){
-	g.addLink(`${links.from}`, `${links.to}`)
+links.links.forEach(function (link) {
+	g.addLink(link.from, link.to)
 })
 
 /*Distance*/
@@ -1234,9 +1238,6 @@ let pathFinder = path.aStar(g, {
 	}
 });
 
-// let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
-// console.log(foundPath);
-
 function foundpath() {
 	let from = document.getElementById('from');
 	let to = document.getElementById('to');
@@ -1251,11 +1252,13 @@ function foundpath() {
 	});
 
 }
+
 document.getElementById('botao').addEventListener('click', () => {
 	foundpath();
 });
 
-
+// let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
+// console.log(foundPath);
 },{"./links.json":1,"./nodes.json":2,"ngraph.graph":4,"ngraph.path":14}],4:[function(require,module,exports){
 /**
  * @fileOverview Contains definition of the core graph object.
