@@ -5,14 +5,18 @@ let path = require('ngraph.path')
 var nodes = require('./nodes.json')
 var links = require('./links.json')
 
-nodes.nodes.forEach(function (node) {
-	g.addNode(node.rua, {
-		holes: node.holes,
-		semaphore: node.semaphore,
-		x: node.x,
-		y: node.y
+fetch('./nodes.json').then(res, function () {
+	res.json()
+}.then(data, function () {
+	nodes.nodes.forEach(function (node) {
+		g.addNode(node.rua, {
+			holes: node.holes,
+			semaphore: node.semaphore,
+			x: node.x,
+			y: node.y
+		})
 	})
-})
+}))
 
 links.links.forEach(function (link) {
 	g.addLink(link.from, link.to)
@@ -45,24 +49,24 @@ let pathFinder = path.aStar(g, {
 	}
 });
 
-function foundpath() {
-	let from = document.getElementById('from');
-	let to = document.getElementById('to');
-	console.log('From --> ' + from.value)
-	console.log('To -->' + to.value)
+// function foundpath() {
+// 	let from = document.getElementById('from');
+// 	let to = document.getElementById('to');
+// 	console.log('From --> ' + from.value)
+// 	console.log('To -->' + to.value)
 
-	let foundPath = pathFinder.find(from.value, to.value);
-	foundPath.forEach(function (node) {
-		var nodeSelector = node.id
-		document.querySelector('#' + nodeSelector).setAttribute('fill', 'green')
-		console.log("#" + nodeSelector)
-	});
+// 	let foundPath = pathFinder.find(from.value, to.value);
+// 	foundPath.forEach(function (node) {
+// 		var nodeSelector = node.id
+// 		document.querySelector('#' + nodeSelector).setAttribute('fill', 'green')
+// 		console.log("#" + nodeSelector)
+// 	});
 
-}
+// }
 
-document.getElementById('botao').addEventListener('click', () => {
-	foundpath();
-});
+// document.getElementById('botao').addEventListener('click', () => {
+// 	foundpath();
+// });
 
-// let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
-// console.log(foundPath);
+let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
+console.log(foundPath);

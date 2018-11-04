@@ -7,6 +7,7 @@
     "dependencies": {
         "ngraph.events": "0.0.4",
         "ngraph.graph": "0.0.14",
-        "ngraph.path": "^1.0.2"
+        "ngraph.path": "^1.0.2",
+        "serve": "^10.0.2"
     }
 }
