@@ -5,7 +5,7 @@ let path = require('ngraph.path')
 
 //var nodes = require('./nodes.json')
 
-fetch('/js/nodes.json').then(function (res) {
+fetch('../js/nodes.json').then(function (res) {
 	return res.json()
 }).then(function (data) {
 	data.nodes.forEach(function (node) {
@@ -18,7 +18,7 @@ fetch('/js/nodes.json').then(function (res) {
 	})
 })
 
-fetch('/js/links.json').then(function (res) {
+fetch('../js/links.json').then(function (res) {
 	return res.json()
 }).then(function (data) {
 	data.links.forEach(function (link) {
@@ -89,8 +89,10 @@ document.getElementById('botao').addEventListener('click', () => {
 	foundpath()
 });
 
+//Consultar pelo Node.
 // let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
 // console.log(foundPath);
+
 },{"ngraph.graph":2,"ngraph.path":12}],2:[function(require,module,exports){
 /**
  * @fileOverview Contains definition of the core graph object.
