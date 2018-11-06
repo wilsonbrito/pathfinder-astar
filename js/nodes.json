@@ -239,8 +239,8 @@
 		},
 		{
 			"rua": "rua16-2",
-			"holes": "0",
-			"semaphore": "0",
+			"holes": "10",
+			"semaphore": "10",
 			"x": "3",
 			"y": "8"
 		},

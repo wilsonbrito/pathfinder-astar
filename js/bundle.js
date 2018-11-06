@@ -1,1265 +1,97 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={
-    "links": [
-        {
-            "from": "rua1-com-rua10-2",
-            "to": "rua1-com-rua10-1"
-        },
-        {
-            "from": "rua1-com-rua10-1",
-            "to": "rua1-5"
-        },
-        {
-            "from": "rua1-5",
-            "to": "rua1-4"
-        },
-        {
-            "from": "rua1-4",
-            "to": "rua1-3"
-        },
-        {
-            "from": "rua1-3",
-            "to": "rua1-2"
-        },
-        {
-            "from": "rua1-2",
-            "to": "rua1-1"
-        },
-        {
-            "from": "rua1-1",
-            "to": "conexao1216"
-        },
-        {
-            "from": "conexao1216",
-            "to": "rua16-1"
-        },
-        {
-            "from": "rua16-1",
-            "to": "rua16-2"
-        },
-        {
-            "from": "rua16-2",
-            "to": "rua16-3"
-        },
-        {
-            "from": "rua16-3",
-            "to": "rua16-4"
-        },
-        {
-            "from": "rua16-4",
-            "to": "rua16-5"
-        },
-        {
-            "from": "rua16-5",
-            "to": "conexao11121617"
-        },
-        {
-            "from": "conexao11121617",
-            "to": "rua17-1"
-        },
-        {
-            "from": "rua17-1",
-            "to": "rua17-2"
-        },
-        {
-            "from": "rua17-2",
-            "to": "rua17-3"
-        },
-        {
-            "from": "rua17-3",
-            "to": "rua17-4"
-        },
-        {
-            "from": "rua17-4",
-            "to": "rua17-5"
-        },
-        {
-            "from": "rua17-5",
-            "to": "conexao78"
-        },
-        {
-            "from": "conexao78",
-            "to": "rua8-1"
-        },
-        {
-            "from": "rua8-1",
-            "to": "rua8-2"
-        },
-        {
-            "from": "rua8-2",
-            "to": "rua8-3"
-        },
-        {
-            "from": "rua8-3",
-            "to": "rua8-4"
-        },
-        {
-            "from": "rua8-4",
-            "to": "rua8-5"
-        },
-        {
-            "from": "rua8-5",
-            "to": "rua8-com-rua9-3"
-        },
-        {
-            "from": "rua8-com-rua9-3",
-            "to": "rua8-com-rua9-2"
-        },
-        {
-            "from": "rua8-com-rua9-2",
-            "to": "rua8-com-rua9-1"
-        },
-        {
-            "from": "rua8-com-rua9-1",
-            "to": "rua9-5"
-        },
-        {
-            "from": "rua9-5",
-            "to": "rua9-4"
-        },
-        {
-            "from": "rua9-4",
-            "to": "rua9-3"
-        },
-        {
-            "from": "rua9-3",
-            "to": "rua9-2"
-        },
-        {
-            "from": "rua9-2",
-            "to": "rua9-1"
-        },
-        {
-            "from": "rua9-1",
-            "to": "conexao91011"
-        },
-        {
-            "from": "conexao91011",
-            "to": "rua10-1"
-        },
-        {
-            "from": "rua10-1",
-            "to": "rua10-2"
-        },
-        {
-            "from": "rua10-2",
-            "to": "rua10-3"
-        },
-        {
-            "from": "rua10-3",
-            "to": "rua10-4"
-        },
-        {
-            "from": "rua10-4",
-            "to": "rua10-5"
-        },
-        {
-            "from": "rua10-5",
-            "to": "rua1-com-rua10-3"
-        },
-        {
-            "from": "rua1-com-rua10-3",
-            "to": "rua1-com-rua10-2"
-        },
-        {
-            "from": "conexao91011",
-            "to": "rua11-5"
-        },
-        {
-            "from": "rua11-5",
-            "to": "rua11-4"
-        },
-        {
-            "from": "rua11-4",
-            "to": "rua11-3"
-        },
-        {
-            "from": "rua11-3",
-            "to": "rua11-2"
-        },
-        {
-            "from": "rua11-2",
-            "to": "rua11-1"
-        },
-        {
-            "from": "rua11-1",
-            "to": "conexao11121617"
-        },
-        {
-            "from": "conexao1216",
-            "to": "rua2-5"
-        },
-        {
-            "from": "rua2-5",
-            "to": "rua2-4"
-        },
-        {
-            "from": "rua2-4",
-            "to": "rua2-3"
-        },
-        {
-            "from": "rua2-3",
-            "to": "rua2-2"
-        },
-        {
-            "from": "rua2-3",
-            "to": "rua2-2"
-        },
-        {
-            "from": "rua2-2",
-            "to": "rua2-1"
-        },
-        {
-            "from": "rua2-1",
-            "to": "conexao2314"
-        },
-        {
-            "from": "conexao2314",
-            "to": "rua14-5"
-        },
-        {
-            "from": "rua14-5",
-            "to": "rua14-4"
-        },
-        {
-            "from": "rua14-4",
-            "to": "rua14-3"
-        },
-        {
-            "from": "rua14-3",
-            "to": "rua14-2"
-        },
-        {
-            "from": "rua14-2",
-            "to": "rua14-1"
-        },
-        {
-            "from": "rua14-1",
-            "to": "conexao121315"
-        },
-        {
-            "from": "conexao121315",
-            "to": "rua15-5"
-        },
-        {
-            "from": "rua15-5",
-            "to": "rua15-4"
-        },
-        {
-            "from": "rua15-4",
-            "to": "rua15-3"
-        },
-        {
-            "from": "rua15-3",
-            "to": "rua15-2"
-        },
-        {
-            "from": "rua15-2",
-            "to": "rua15-1"
-        },
-        {
-            "from": "rua15-1",
-            "to": "conexao67"
-        },
-        {
-            "from": "conexao67",
-            "to": "rua7-1"
-        },
-        {
-            "from": "rua7-1",
-            "to": "rua7-2"
-        },
-        {
-            "from": "rua7-2",
-            "to": "rua7-3"
-        },
-        {
-            "from": "rua7-3",
-            "to": "rua7-4"
-        },
-        {
-            "from": "rua7-4",
-            "to": "rua7-5"
-        },
-        {
-            "from": "rua7-5",
-            "to": "conexao78"
-        },
-        {
-            "from": "conexao11121617",
-            "to": "rua12-5"
-        },
-        {
-            "from": "rua12-5",
-            "to": "rua12-4"
-        },
-        {
-            "from": "rua12-4",
-            "to": "rua12-3"
-        },
-        {
-            "from": "rua12-3",
-            "to": "rua12-2"
-        },
-        {
-            "from": "rua12-2",
-            "to": "rua12-1"
-        },
-        {
-            "from": "rua12-1",
-            "to": "conexao121315"
-        },
-        {
-            "from": "conexao2314",
-            "to": "rua3-5"
-        },
-        {
-            "from": "rua3-5",
-            "to": "rua3-4"
-        },
-        {
-            "from": "rua3-4",
-            "to": "rua3-3"
-        },
-        {
-            "from": "rua3-3",
-            "to": "rua3-2"
-        },
-        {
-            "from": "rua3-2",
-            "to": "rua3-1"
-        },
-        {
-            "from": "rua3-1",
-            "to": "rua3-com-rua4-3"
-        },
-        {
-            "from": "rua3-com-rua4-3",
-            "to": "rua3-com-rua4-2"
-        },
-        {
-            "from": "rua3-com-rua4-3",
-            "to": "rua3-com-rua4-2"
-        },
-        {
-            "from": "rua3-com-rua4-2",
-            "to": "rua3-com-rua4-1"
-        },
-        {
-            "from": "rua3-com-rua4-1",
-            "to": "rua4-5"
-        },
-        {
-            "from": "rua4-5",
-            "to": "rua4-4"
-        },
-        {
-            "from": "rua4-4",
-            "to": "rua4-3"
-        },
-        {
-            "from": "rua4-3",
-            "to": "rua4-2"
-        },
-        {
-            "from": "rua4-2",
-            "to": "rua4-1"
-        },
-        {
-            "from": "rua4-1",
-            "to": "conexao4513"
-        },
-        {
-            "from": "conexao4513",
-            "to": "rua5-5"
-        },
-        {
-            "from": "rua5-5",
-            "to": "rua5-4"
-        },
-        {
-            "from": "rua5-4",
-            "to": "rua5-3"
-        },
-        {
-            "from": "rua5-3",
-            "to": "rua5-2"
-        },
-        {
-            "from": "rua5-2",
-            "to": "rua5-1"
-        },
-        {
-            "from": "rua5-1",
-            "to": "rua5-com-rua6-3"
-        },
-        {
-            "from": "rua5-com-rua6-3",
-            "to": "rua5-com-rua6-2"
-        },
-        {
-            "from": "rua5-com-rua6-2",
-            "to": "rua5-com-rua6-1"
-        },
-        {
-            "from": "rua5-com-rua6-1",
-            "to": "rua6-1"
-        },
-        {
-            "from": "rua6-1",
-            "to": "rua6-2"
-        },
-        {
-            "from": "rua6-2",
-            "to": "rua6-3"
-        },
-        {
-            "from": "rua6-3",
-            "to": "rua6-4"
-        },
-        {
-            "from": "rua6-4",
-            "to": "rua6-5"
-        },
-        {
-            "from": "rua6-5",
-            "to": "conexao67"
-        },
-        {
-            "from": "conexao121315",
-            "to": "rua13-5"
-        },
-        {
-            "from": "rua13-5",
-            "to": "rua13-4"
-        },
-        {
-            "from": "rua13-4",
-            "to": "rua13-3"
-        },
-        {
-            "from": "rua13-3",
-            "to": "rua13-2"
-        },
-        {
-            "from": "rua13-2",
-            "to": "rua13-1"
-        },
-        {
-            "from": "rua13-1",
-            "to": "conexao4513"
-        }
-    ]
-}
-},{}],2:[function(require,module,exports){
-module.exports={
-	"nodes": [{
-			"rua": "rua1-com-rua10-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "1"
-		},
-		{
-			"rua": "rua1-com-rua10-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "2",
-			"y": "1"
-		},
-		{
-			"rua": "rua10-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "3",
-			"y": "1"
-		},
-		{
-			"rua": "rua10-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "4",
-			"y": "1"
-		},
-		{
-			"rua": "rua10-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "5",
-			"y": "1"
-		},
-		{
-			"rua": "rua10-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "6",
-			"y": "1"
-		},
-		{
-			"rua": "rua10-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "7",
-			"y": "1"
-		},
-		{
-			"rua": "conexao91011",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "1"
-		},
-		{
-			"rua": "rua9-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "9",
-			"y": "1"
-		},
-		{
-			"rua": "rua9-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "10",
-			"y": "1"
-		},
-		{
-			"rua": "rua9-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "11",
-			"y": "1"
-		},
-		{
-			"rua": "rua9-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "12",
-			"y": "1"
-		},
-		{
-			"rua": "rua9-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "13",
-			"y": "1"
-		},
-		{
-			"rua": "rua8-com-rua9-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "14",
-			"y": "1"
-		},
-		{
-			"rua": "rua8-com-rua9-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "1"
-		},
-		{
-			"rua": "rua8-com-rua9-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "2"
-		},
-		{
-			"rua": "rua8-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "3"
-		},
-		{
-			"rua": "rua8-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "4"
-		},
-		{
-			"rua": "rua8-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "5"
-		},
-		{
-			"rua": "rua8-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "6"
-		},
-		{
-			"rua": "rua8-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "7"
-		},
-		{
-			"rua": "rua1-com-rua10-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "2"
-		},
-		{
-			"rua": "rua1-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "3"
-		},
-		{
-			"rua": "rua1-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "4"
-		},
-		{
-			"rua": "rua1-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "5"
-		},
-		{
-			"rua": "rua1-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "6"
-		},
-		{
-			"rua": "rua1-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "7"
-		},
-		{
-			"rua": "rua11-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "2"
-		},
-		{
-			"rua": "rua11-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "3"
-		},
-		{
-			"rua": "rua11-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "4"
-		},
-		{
-			"rua": "rua11-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "5"
-		},
-		{
-			"rua": "rua11-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "6"
-		},
-		{
-			"rua": "conexao1216",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "8"
-		},
-		{
-			"rua": "rua16-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "2",
-			"y": "8"
-		},
-		{
-			"rua": "rua16-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "3",
-			"y": "8"
-		},
-		{
-			"rua": "rua16-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "4",
-			"y": "8"
-		},
-		{
-			"rua": "rua16-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "5",
-			"y": "8"
-		},
-		{
-			"rua": "rua16-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "6",
-			"y": "8"
-		},
-		{
-			"rua": "conexao11121617",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "8"
-		},
-		{
-			"rua": "rua17-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "9",
-			"y": "8"
-		},
-		{
-			"rua": "rua17-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "10",
-			"y": "8"
-		},
-		{
-			"rua": "rua17-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "11",
-			"y": "8"
-		},
-		{
-			"rua": "rua17-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "12",
-			"y": "8"
-		},
-		{
-			"rua": "rua17-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "13",
-			"y": "8"
-		},
-		{
-			"rua": "conexao78",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "8"
-		},
-		{
-			"rua": "rua2-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "9"
-		},
-		{
-			"rua": "rua2-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "10"
-		},
-		{
-			"rua": "rua2-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "11"
-		},
-		{
-			"rua": "rua2-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "12"
-		},
-		{
-			"rua": "rua2-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "13"
-		},
-		{
-			"rua": "conexao2314",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "14"
-		},
-		{
-			"rua": "rua3-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "15"
-		},
-		{
-			"rua": "rua3-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "16"
-		},
-		{
-			"rua": "rua3-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "17"
-		},
-		{
-			"rua": "rua3-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "18"
-		},
-		{
-			"rua": "rua3-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "19"
-		},
-		{
-			"rua": "rua3-com-rua4-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "20"
-		},
-		{
-			"rua": "rua3-com-rua4-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "1",
-			"y": "21"
-		},
-		{
-			"rua": "rua3-com-rua4-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "2",
-			"y": "21"
-		},
-		{
-			"rua": "rua4-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "3",
-			"y": "21"
-		},
-		{
-			"rua": "rua4-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "4",
-			"y": "21"
-		},
-		{
-			"rua": "rua4-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "5",
-			"y": "21"
-		},
-		{
-			"rua": "rua4-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "6",
-			"y": "21"
-		},
-		{
-			"rua": "rua4-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "7",
-			"y": "21"
-		},
-		{
-			"rua": "conexao4513",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "9",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "10",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "11",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "12",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "13",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-com-rua6-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "14",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-com-rua6-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "21"
-		},
-		{
-			"rua": "rua5-com-rua6-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "20"
-		},
-		{
-			"rua": "rua6-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "19"
-		},
-		{
-			"rua": "rua6-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "18"
-		},
-		{
-			"rua": "rua6-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "17"
-		},
-		{
-			"rua": "rua6-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "16"
-		},
-		{
-			"rua": "rua6-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "15"
-		},
-		{
-			"rua": "conexao67",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "14"
-		},
-		{
-			"rua": "rua7-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "13"
-		},
-		{
-			"rua": "rua7-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "12"
-		},
-		{
-			"rua": "rua7-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "11"
-		},
-		{
-			"rua": "rua7-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "10"
-		},
-		{
-			"rua": "rua7-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "15",
-			"y": "9"
-		},
-		{
-			"rua": "rua14-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "2",
-			"y": "14"
-		},
-		{
-			"rua": "rua14-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "3",
-			"y": "14"
-		},
-		{
-			"rua": "rua14-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "4",
-			"y": "14"
-		},
-		{
-			"rua": "rua14-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "5",
-			"y": "14"
-		},
-		{
-			"rua": "rua14-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "6",
-			"y": "14"
-		},
-		{
-			"rua": "conexao121315",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "14"
-		},
-		{
-			"rua": "rua15-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "9",
-			"y": "14"
-		},
-		{
-			"rua": "rua15-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "10",
-			"y": "14"
-		},
-		{
-			"rua": "rua15-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "11",
-			"y": "14"
-		},
-		{
-			"rua": "rua15-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "12",
-			"y": "14"
-		},
-		{
-			"rua": "rua15-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "13",
-			"y": "14"
-		},
-		{
-			"rua": "rua12-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "9"
-		},
-		{
-			"rua": "rua12-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "10"
-		},
-		{
-			"rua": "rua12-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "11"
-		},
-		{
-			"rua": "rua12-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "12"
-		},
-		{
-			"rua": "rua12-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "13"
-		},
-		{
-			"rua": "rua13-5",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "15"
-		},
-		{
-			"rua": "rua13-4",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "13"
-		},
-		{
-			"rua": "rua13-3",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "17"
-		},
-		{
-			"rua": "rua13-2",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "18"
-		},
-		{
-			"rua": "rua13-1",
-			"holes": "0",
-			"semaphore": "0",
-			"x": "8",
-			"y": "19"
-		}
-	]
-}
-},{}],3:[function(require,module,exports){
 let createGraph = require('ngraph.graph');
 let g = createGraph();
 let path = require('ngraph.path')
 
-var nodes = require('./nodes.json')
-var links = require('./links.json')
+//var nodes = require('./nodes.json')
 
-nodes.nodes.forEach(function (node) {
-	g.addNode(node.rua, {
-		holes: node.holes,
-		semaphore: node.semaphore,
-		x: node.x,
-		y: node.y
+fetch('/js/nodes.json').then(function (res) {
+	return res.json()
+}).then(function (data) {
+	data.nodes.forEach(function (node) {
+		g.addNode(node.rua, {
+			holes: node.holes,
+			semaphore: node.semaphore,
+			x: node.x,
+			y: node.y
+		})
 	})
 })
 
-links.links.forEach(function (link) {
-	g.addLink(link.from, link.to)
+fetch('/js/links.json').then(function (res) {
+	return res.json()
+}).then(function (data) {
+	data.links.forEach(function (link) {
+		g.addLink(link.from, link.to)
+	})
+})
+
+var rects = Array.from(document.querySelectorAll('rect, path'))
+
+rects.forEach(function(rect){
+	rect.addEventListener("click", function(){
+
+		var id = rect.getAttribute("id")
+		var from = document.getElementById("from")
+		var to = document.getElementById("to")
+
+
+		if((from.value && to.value) || !from.value){
+
+			return from.value = id
+		}
+		to.value = id
+	})
 })
 
 /*Distance*/
-let totaldistance = 0;
-let arredondado = 0;
+let totaldistance = 0
+let arredondado = 0
 
 /*heuristic*/
-let holes = 0;
-let semaphore = 0;
-let result = 0;
+let holes = 0
+let semaphore = 0
+let result = 0
 
 let pathFinder = path.aStar(g, {
 	distance(from, to, link) {
-		let dx = from.data.x - to.data.x;
-		let dy = from.data.y - to.data.y;
-		let distance = Math.sqrt(dx * dx + dy * dy);
-		arredondado = parseFloat(distance.toFixed(3));
-		totaldistance += arredondado;
-		return arredondado;
+		let dx = from.data.x - to.data.x
+		let dy = from.data.y - to.data.y
+		let distance = Math.sqrt(dx * dx + dy * dy)
+		arredondado = parseFloat(distance.toFixed(3))
+		totaldistance += arredondado
+		console.log("Distance --> " +arredondado)
+		return arredondado
 	},
 	heuristic(from, to, link) {
-		let holes = from.data.holes - to.data.holes;
-		let semaphore = from.data.semaphore - to.data.semaphore;
-		let calc = Math.sqrt(holes * holes + semaphore * semaphore);
-		result = parseFloat(calc.toFixed(1));
+		let holes = from.data.holes - to.data.holes
+		let semaphore = from.data.semaphore - to.data.semaphore
+		let calc = Math.sqrt(holes * holes + semaphore * semaphore)
+		result = parseFloat(calc.toFixed(1))
+		console.log("Heuristic --> " +result)
 		return result
 	}
 });
 
 function foundpath() {
-	let from = document.getElementById('from');
-	let to = document.getElementById('to');
-	console.log('From --> ' + from.value)
-	console.log('To -->' + to.value)
+	let from = document.getElementById('from')
+	let to = document.getElementById('to')
 
-	let foundPath = pathFinder.find(from.value, to.value);
+	let foundPath = pathFinder.find(from.value, to.value)
 	foundPath.forEach(function (node) {
 		var nodeSelector = node.id
 		document.querySelector('#' + nodeSelector).setAttribute('fill', 'green')
-		console.log("#" + nodeSelector)
 	});
 
 }
 
 document.getElementById('botao').addEventListener('click', () => {
-	foundpath();
+	foundpath()
 });
 
 // let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
 // console.log(foundPath);
-},{"./links.json":1,"./nodes.json":2,"ngraph.graph":4,"ngraph.path":14}],4:[function(require,module,exports){
+},{"ngraph.graph":2,"ngraph.path":12}],2:[function(require,module,exports){
 /**
  * @fileOverview Contains definition of the core graph object.
  */
@@ -1862,7 +694,7 @@ function makeLinkId(fromId, toId) {
   return fromId.toString() + '👉 ' + toId.toString();
 }
 
-},{"ngraph.events":5}],5:[function(require,module,exports){
+},{"ngraph.events":3}],3:[function(require,module,exports){
 module.exports = function(subject) {
   validateSubject(subject);
 
@@ -1952,7 +784,7 @@ function validateSubject(subject) {
   }
 }
 
-},{}],6:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 /**
  * Based on https://github.com/mourner/tinyqueue
  * Copyright (c) 2017, Vladimir Agafonkin https://github.com/mourner/tinyqueue/blob/master/LICENSE
@@ -2076,7 +908,7 @@ NodeHeap.prototype = {
     setNodeId(item, pos);
   }
 };
-},{}],7:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 /**
  * Performs suboptimal, greed A Star path finding.
  * This finder does not necessary finds the shortest path. The path
@@ -2306,7 +1138,7 @@ function aStarBi(graph, options) {
   }
 }
 
-},{"./NodeHeap":6,"./defaultSettings":9,"./heuristics":10,"./makeSearchStatePool":11}],8:[function(require,module,exports){
+},{"./NodeHeap":4,"./defaultSettings":7,"./heuristics":8,"./makeSearchStatePool":9}],6:[function(require,module,exports){
 /**
  * Performs a uni-directional A Star search on graph.
  * 
@@ -2452,7 +1284,7 @@ function reconstructPath(searchState) {
   return path;
 }
 
-},{"./NodeHeap":6,"./defaultSettings.js":9,"./heuristics":10,"./makeSearchStatePool":11}],9:[function(require,module,exports){
+},{"./NodeHeap":4,"./defaultSettings.js":7,"./heuristics":8,"./makeSearchStatePool":9}],7:[function(require,module,exports){
 // We reuse instance of array, but we trie to freeze it as well,
 // so that consumers don't modify it. Maybe it's a bad idea.
 var NO_PATH = [];
@@ -2510,7 +1342,7 @@ function setH1(node, heapIndex) {
 function setH2(node, heapIndex) {
   node.h2 = heapIndex;
 }
-},{}],10:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 module.exports = {
   l2: l2,
   l1: l1
@@ -2539,7 +1371,7 @@ function l1(a, b) {
   return Math.abs(dx) + Math.abs(dy);
 }
 
-},{}],11:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 /**
  * This class represents a single search node in the exploration tree for
  * A* algorithm.
@@ -2604,7 +1436,7 @@ function makeSearchStatePool() {
   }
 }
 module.exports = makeSearchStatePool;
-},{}],12:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 module.exports = nba;
 
 var NodeHeap = require('../NodeHeap');
@@ -2858,7 +1690,7 @@ function reconstructPath(searchState) {
   return path;
 }
 
-},{"../NodeHeap":6,"../defaultSettings.js":9,"../heuristics":10,"./makeNBASearchStatePool.js":13}],13:[function(require,module,exports){
+},{"../NodeHeap":4,"../defaultSettings.js":7,"../heuristics":8,"./makeNBASearchStatePool.js":11}],11:[function(require,module,exports){
 module.exports = makeNBASearchStatePool;
 
 /**
@@ -2978,11 +1810,11 @@ function makeNBASearchStatePool() {
   }
 }
 
-},{}],14:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 module.exports = {
   aStar: require('./a-star/a-star.js'),
   aGreedy: require('./a-star/a-greedy-star'),
   nba: require('./a-star/nba/index.js'),
 }
 
-},{"./a-star/a-greedy-star":7,"./a-star/a-star.js":8,"./a-star/nba/index.js":12}]},{},[3]);
+},{"./a-star/a-greedy-star":5,"./a-star/a-star.js":6,"./a-star/nba/index.js":10}]},{},[1]);
