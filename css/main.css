@@ -130,6 +130,30 @@ body {
 .desenvolvimento .footer {
   position: static;
 }
+.bloco-calc input {
+  border: 1px solid #f35047;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 25px;
+  color: #f35047;
+}
+.bloco-calc #botao {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffbf00;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  padding: 0px 44px;
+}
+.bloco-calc #botao:hover {
+  border: 0;
+  background: none;
+  box-shadow: 0 0 0 1px #ffbf00;
+  color: #ffbf00;
+}
 /*
 * State
 * Estado global do Layout
@@ -149,4 +173,7 @@ body .header {
 /*Layout - Primeiro Bloco*/
 .block__one .envenlopar-bnt {
   margin-top: 20px;
+}
+.desenvolvimento .bloco-calc {
+  margin: 30px 0;
 }
