@@ -88,5 +88,6 @@ document.getElementById('botao').addEventListener('click', () => {
 	foundpath()
 });
 
+//Consultar pelo Node.
 // let foundPath = pathFinder.find('conexao1216', 'conexao11121617');
 // console.log(foundPath);
