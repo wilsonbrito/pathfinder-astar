@@ -4,7 +4,7 @@ let path = require('ngraph.path')
 
 //var nodes = require('./nodes.json')
 
-fetch('/js/nodes.json').then(function (res) {
+fetch('../js/nodes.json').then(function (res) {
 	return res.json()
 }).then(function (data) {
 	data.nodes.forEach(function (node) {
@@ -17,7 +17,7 @@ fetch('/js/nodes.json').then(function (res) {
 	})
 })
 
-fetch('/js/links.json').then(function (res) {
+fetch('../js/links.json').then(function (res) {
 	return res.json()
 }).then(function (data) {
 	data.links.forEach(function (link) {
