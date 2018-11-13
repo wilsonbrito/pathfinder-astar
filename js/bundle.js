@@ -9,6 +9,15 @@ fetch('../js/nodes.json').then(function (res) {
 	return res.json()
 }).then(function (data) {
 	data.nodes.forEach(function (node) {
+		if(node.holes > 0){
+			document.querySelector('#' + node.rua).setAttribute('fill', 'red')
+		}
+		if(node.semaphore > 0){
+			document.querySelector('#' + node.rua).setAttribute('fill', 'blue')
+		}
+		if(node.semaphore > 0 && node.holes > 0){
+			document.querySelector('#' + node.rua).setAttribute('fill', 'yellow')
+		}
 		g.addNode(node.rua, {
 			holes: node.holes,
 			semaphore: node.semaphore,
@@ -35,11 +44,11 @@ rects.forEach(function(rect){
 		var from = document.getElementById("from")
 		var to = document.getElementById("to")
 
-
 		if((from.value && to.value) || !from.value){
 
 			return from.value = id
 		}
+
 		to.value = id
 	})
 })
@@ -60,15 +69,12 @@ let pathFinder = path.aStar(g, {
 		let distance = Math.sqrt(dx * dx + dy * dy)
 		arredondado = parseFloat(distance.toFixed(3))
 		totaldistance += arredondado
-		console.log("Distance --> " +arredondado)
-		return arredondado
 	},
 	heuristic(from, to, link) {
 		let holes = from.data.holes - to.data.holes
 		let semaphore = from.data.semaphore - to.data.semaphore
 		let calc = Math.sqrt(holes * holes + semaphore * semaphore)
 		result = parseFloat(calc.toFixed(1))
-		console.log("Heuristic --> " +result)
 		return result
 	}
 });
@@ -76,8 +82,8 @@ let pathFinder = path.aStar(g, {
 function foundpath() {
 	let from = document.getElementById('from')
 	let to = document.getElementById('to')
-
 	let foundPath = pathFinder.find(from.value, to.value)
+
 	foundPath.forEach(function (node) {
 		var nodeSelector = node.id
 		document.querySelector('#' + nodeSelector).setAttribute('fill', 'green')

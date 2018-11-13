@@ -1,8 +1,8 @@
 {
 	"nodes": [{
 			"rua": "rua1-com-rua10-2",
-			"holes": "0",
-			"semaphore": "0",
+			"holes": "3",
+			"semaphore": "3",
 			"x": "1",
 			"y": "1"
 		},
@@ -183,7 +183,7 @@
 		},
 		{
 			"rua": "rua1-1",
-			"holes": "0",
+			"holes": "1",
 			"semaphore": "0",
 			"x": "1",
 			"y": "7"
@@ -239,8 +239,8 @@
 		},
 		{
 			"rua": "rua16-2",
-			"holes": "10",
-			"semaphore": "10",
+			"holes": "0",
+			"semaphore": "0",
 			"x": "3",
 			"y": "8"
 		},
@@ -281,7 +281,7 @@
 		},
 		{
 			"rua": "rua17-2",
-			"holes": "0",
+			"holes": "1",
 			"semaphore": "0",
 			"x": "10",
 			"y": "8"
@@ -289,7 +289,7 @@
 		{
 			"rua": "rua17-3",
 			"holes": "0",
-			"semaphore": "0",
+			"semaphore": "2",
 			"x": "11",
 			"y": "8"
 		},
@@ -414,8 +414,8 @@
 		},
 		{
 			"rua": "rua4-5",
-			"holes": "0",
-			"semaphore": "0",
+			"holes": "1",
+			"semaphore": "1",
 			"x": "3",
 			"y": "21"
 		},
@@ -541,7 +541,7 @@
 		{
 			"rua": "rua6-5",
 			"holes": "0",
-			"semaphore": "0",
+			"semaphore": "1",
 			"x": "15",
 			"y": "15"
 		},
@@ -715,7 +715,7 @@
 		},
 		{
 			"rua": "rua13-3",
-			"holes": "0",
+			"holes": "1",
 			"semaphore": "0",
 			"x": "8",
 			"y": "17"
